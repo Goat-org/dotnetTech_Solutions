@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.NET Tech Solution</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="service.html">SERVICES</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Building Dreams, One Click at a Time!</h1>
+            <p>
+                Welcome to .NetTech_Solutions, where technology meets innovation. We are a cutting-edge tech solutions company dedicated to crafting dynamic and visually stunning websites tailored to your unique needs. Our team of skilled developers, designers, and digital strategists work collaboratively to transform your ideas into a compelling online presence. From responsive designs that adapt seamlessly to any device, to powerful e-commerce solutions, we leverage the latest technologies to elevate your digital experience. At .NetTech_Solutions, we don't just build websites; we create immersive online solutions that drive success for your business in the ever-evolving digital landscape.
+            </p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+
+    </section>
+
+    <section class="service">
+        <h1>Services We Offer</h1>
+        <p>
+            .NetTech_Solutions offers a comprehensive range of services tailored to meet the digital needs of businesses. Specializing in website creation and maintenance, we provide cutting-edge solutions to establish and enhance your online presence. Our team of skilled developers, designers, and digital strategists collaborates closely with clients to craft dynamic and visually appealing websites that resonate with their target audience.
+
+            In addition to website development, we excel in creating creative native apps that deliver seamless user experiences across various platforms. From conceptualization to implementation, we leverage the latest technologies to develop innovative and intuitive applications that meet your specific requirements and objectives.
+
+            Furthermore, .NetTech_Solutions goes beyond development to provide exceptional technical support. We offer ongoing maintenance, troubleshooting, and optimization services to ensure that your digital assets operate smoothly and efficiently. Our dedicated support team is committed to delivering timely and effective solutions, allowing you to focus on your core business activities while we handle the technical aspects.
+
+            Overall, .NetTech_Solutions is your trusted partner for all your digital needs, offering comprehensive services that empower your business to succeed in today's competitive landscape.
+        </p>
+        <div class="row">
+            <div class="service-col">
+                <h3>Website Design</h3>
+                <p>Chatgpt</p>
+            </div>
+
+            <div class="service-col">
+                <h3>Application Development</h3>
+                <p>Chatgpt</p>
+            </div>
+
+            <div class="service-col">
+                <h3>Technical Support</h3>
+                <p>Chatgpt</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Call To Action-->
+    <footer class="footer-section">
+        <div class="container">
+            <!-- Footer Logo -->
+            <div class="local-scroll">
+                <a href="#top"><img src="images/logo.jpg"></a>
+            </div>
+            <!-- End Footer Logo -->
+            <!-- Footer Text -->
+            <div class="footer-text">
+                <div class="footer-made">
+                    Web marketing strategy done by Fulufhelo Hangwani Shavhani.
+                </div>
+            </div>
+            <!-- End Footer Text -->
+        </div>
+
+    </footer>
+
+    <footer class="footer-section1">
+        <!-- Footer Text -->
+        <div class="footer-text">
+            <!-- Copyright -->
+            <div class="footer-copy">
+                <a href=""><b>Contact</b></a> |
+                <a href=""><b>Terms of Use</b></a> |
+                <a href=""><b>Privacy Policy</b></a> |
+            </div>
+            <!-- End Copyright -->
+        </div>
+        <!-- End Footer Text -->
+    </footer>
+
+    <!--JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>

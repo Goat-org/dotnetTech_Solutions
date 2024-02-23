@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.NET Tech Solution</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="service.html">SERVICES</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!--about us content-->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Building Dreams, One Click at a Time!</h1>
+                <p>At .NetTech Solutions, we're more than just a tech company—we're your dedicated partner in digital innovation. With a passion for pushing boundaries and a commitment to excellence, we specialize in crafting bespoke digital solutions tailored to your unique needs. From stunning websites that captivate audiences to innovative native apps that streamline operations, we leverage cutting-edge technology and creative ingenuity to help businesses thrive in the digital age. Backed by a team of skilled professionals and a customer-centric approach, we're here to empower you to achieve your digital aspirations and drive success in today's dynamic marketplace.</p>
+                <a href="" class="hero-btn red-btn">LEARN MORE</a>
+            </div>
+            <div class="about-col">
+                <img src="images/photo-1579403124614-197f69d8187b.avif">
+            </div>
+        </div>
+    </section>
+
+    
+    <!--Call To Action-->
+    <footer class="footer-section">
+        <div class="container">
+            <!-- Footer Logo -->
+            <div class="local-scroll">
+                <a href="#top"><img src="images/logo.jpg"></a>
+            </div>
+            <!-- End Footer Logo -->
+            <!-- Footer Text -->
+            <div class="footer-text">
+                <div class="footer-made">
+                    Web marketing strategy done by Fulufhelo Hangwani Shavhani.
+                </div>
+            </div>
+            <!-- End Footer Text -->
+        </div>
+
+    </footer>
+
+    <footer class="footer-section1">
+        <!-- Footer Text -->
+        <div class="footer-text">
+            <!-- Copyright -->
+            <div class="footer-copy">
+                <a href=""><b>Contact</b></a> |
+                <a href=""><b>Terms of Use</b></a> |
+                <a href=""><b>Privacy Policy</b></a> |
+            </div>
+            <!-- End Copyright -->
+        </div>
+        <!-- End Footer Text -->
+    </footer>
+
+    <!--JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
